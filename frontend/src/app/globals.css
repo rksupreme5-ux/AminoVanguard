@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-true-black: #000000;
+  --panel-bg: #050505;
+  --border-dim: #1a1a1a;
+  --accent-cyan: #00f0ff;
+  --accent-magenta: #ff003c;
+}
+
+body {
+  background-color: var(--bg-true-black);
+  color: #e0e0e0;
+  font-family: 'Inter', sans-serif;
+  overflow: hidden; 
+}
+
+/* Custom Cyber-Terminal Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-true-black);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-dim);
+}
