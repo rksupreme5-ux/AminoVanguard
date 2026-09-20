@@ -1,7 +1,7 @@
 # AminoVanguard 🧬
 **A local-first, GNN-driven pipeline for rapid protein-ligand interface profiling and ADMET topology visualization.**
 
-AminoVanguard is a high-performance computational biology dashboard designed to predict binding affinities (ΔG) and visualize molecular docking interfaces without the computational overhead of full-scale Molecular Dynamics (MD) simulations. 
+AminoVanguard is a high-performance computational biology dashboard designed to predict binding affinities (ΔG) and visualize molecular docking interfaces without the computational overhead of full-scale Mol ecular Dynamics (MD) simulations. 
 
 Engineered specifically for local execution on a 24GB RAM constraint, the architecture decouples a PyTorch-based inference engine from a hardware-accelerated WebGL frontend.
 
